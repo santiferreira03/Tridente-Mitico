@@ -1,0 +1,104 @@
+body{
+    background: #1a1a1a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff5d;
+    margin: 0;
+    text-align: center;
+}
+header a{
+    color: white;
+    padding: 1.5rem 0;
+}
+.menu-icon{
+    display: none;
+}
+.logo{
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
+h1{
+    color: white;
+}
+.container{
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.containertext{
+    width: 85%;
+    max-width: 780px;
+    margin: 0 auto;
+}
+.containernavbar{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cabesera{
+    background: #474787;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navegacion ul li{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+}
+.navegacion ul li a:hover{
+    color: rgb(180, 180, 180);
+}
+.footer{
+    text-align: center;
+}
+.main{
+    padding-top: 10rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px){
+   
+    .menu-icon{
+        color: white;
+        display: block;
+        cursor: pointer;
+    }
+    .navegacion ul{
+        display: none;
+    }
+    .navegacion ul.show{
+        display: block;
+    }
+
+    .navegacion{
+        width: 100%;
+    }
+    .navegacion ul li{
+        display: block;
+    }
+    .navegacion ul li a{
+        display: block;
+        padding: 0.3rem 0;
+        transition: all 0.4 linear;
+        border-radius: 5px;
+    }
+    .navegacion ul li a:hover{
+        color: rgb(180, 180, 180);
+    }
+
+
+}
